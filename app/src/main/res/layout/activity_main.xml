@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A value"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+
+
+    <EditText
+        android:id="@+id/editTexta"
+        android:layout_width="406dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input your Data Here"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B Value"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <EditText
+        android:id="@+id/editTextb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input your data here"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/buttonCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cal"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Result"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+</LinearLayout>
